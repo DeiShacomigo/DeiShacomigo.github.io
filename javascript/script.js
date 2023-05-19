@@ -2,9 +2,9 @@ document.getElementById("sorteioBtn").addEventListener("click", function () {
     var opcoes = ["Mandar Fototeta", "Mandar Fotopica", "Não fazer nada"];
 
     var resultado;
-    var rand = Math.random(); // Gera um número aleatório entre 0 e 1
+    var rand = Math.random(); 
 
-    // 5% de chance para "Fototeta" e 5% de chance para "Fotopica"
+    
     if (rand < 0.25) {
         resultado = "Mandar Fototeta";
     } else if (rand < 0.10) {
