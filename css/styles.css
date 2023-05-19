@@ -2,9 +2,10 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: aliceblue;
-  background-image: url('../imagens/img1.jpeg'), url('../imagens/img2.jpg');
-  background-repeat: no-repeat, no-repeat;
-  background-position: left center, right center;
+  background-image: url('../imagens/img1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: auto;
 }
 
 h1 {
