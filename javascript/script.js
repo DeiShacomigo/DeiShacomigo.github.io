@@ -7,7 +7,7 @@ document.getElementById("sorteioBtn").addEventListener("click", function () {
     
     if (rand < 0.25) {
         resultado = "Mandar Fototeta";
-    } else if (rand < 0.10) {
+    } else if (rand < 0.5) {
         resultado = "Mandar Fotopica";
     } else {
         resultado = "Não fazer nada";
