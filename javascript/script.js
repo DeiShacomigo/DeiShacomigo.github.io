@@ -5,9 +5,9 @@ document.getElementById("sorteioBtn").addEventListener("click", function () {
     var rand = Math.random(); 
 
     
-    if (rand < 0.4) {
+    if (rand < 0.65) {
         resultado = "Mandar Fototeta";
-    } else if (rand < 0.5) {
+    } else if (rand < 0.7) {
         resultado = "Mandar Fotopica";
     } else {
         resultado = "Não fazer nada";
