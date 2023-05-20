@@ -5,7 +5,7 @@ document.getElementById("sorteioBtn").addEventListener("click", function () {
     var rand = Math.random(); 
 
     
-    if (rand < 0.25) {
+    if (rand < 0.40) {
         resultado = "Mandar Fototeta";
     } else if (rand < 0.5) {
         resultado = "Mandar Fotopica";
