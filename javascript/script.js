@@ -1,14 +1,14 @@
 document.getElementById("sorteioBtn").addEventListener("click", function () {
-    var opcoes = ["Mandar Fototeta", "Mandar Fotopica", "Não fazer nada"];
+    var opcoes = ["Alternativa A", "Alternativa B", "Não fazer nada"];
 
     var resultado;
     var rand = Math.random(); 
 
     
     if (rand < 0.65) {
-        resultado = "Mandar Fototeta";
+        resultado = "Alternativa A";
     } else if (rand < 0.7) {
-        resultado = "Mandar Fotopica";
+        resultado = "Alternativa B";
     } else {
         resultado = "Não fazer nada";
     }
